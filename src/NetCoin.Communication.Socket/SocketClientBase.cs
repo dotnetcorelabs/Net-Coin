@@ -1,5 +1,5 @@
-﻿using NetCoin.Common.Logger;
-using NetCoin.Communication.Socket.EventArgs;
+﻿using NetCoin.Common;
+using NetCoin.Common.Logger;
 using System;
 using System.IO;
 using System.Net;

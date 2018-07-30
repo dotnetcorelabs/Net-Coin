@@ -1,14 +1,8 @@
-﻿using NetCoin.Common.Helpers;
+﻿using NetCoin.Common;
+using NetCoin.Common.Helpers;
 using NetCoin.Communication.Socket;
-using NetCoin.Communication.Socket.EventArgs;
 using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
 using System.Net;
-using System.Net.Sockets;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ClientChainApp.Wins10
 {
@@ -42,6 +36,11 @@ namespace ClientChainApp.Wins10
 
         private static void Client_OnMessageReceived(object sender, MessageEventArgs e)
         {
+            if (e == null)
+            {
+                throw new ArgumentNullException(nameof(e));
+            }
+
             Console.WriteLine($"Message received {e.ASCIIMessage}");
         }
     }

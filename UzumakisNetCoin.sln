@@ -23,6 +23,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoin.Common", "src\NetCo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoin.Communication.Socket", "src\NetCoin.Communication.Socket\NetCoin.Communication.Socket.csproj", "{B89E2621-B1A4-450A-A9DC-821D7364DB85}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoin.Communication.MQTT", "src\NetCoin.Communication.MQTT\NetCoin.Communication.MQTT.csproj", "{EB321D31-6063-4E7A-B856-96D2F8CE29FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoin.Communication.RabbitMQ", "src\NetCoin.Communication.RabbitMQ\NetCoin.Communication.RabbitMQ.csproj", "{EF76978C-C13A-4E18-95B9-066017D1D8D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{B89E2621-B1A4-450A-A9DC-821D7364DB85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B89E2621-B1A4-450A-A9DC-821D7364DB85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B89E2621-B1A4-450A-A9DC-821D7364DB85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB321D31-6063-4E7A-B856-96D2F8CE29FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB321D31-6063-4E7A-B856-96D2F8CE29FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB321D31-6063-4E7A-B856-96D2F8CE29FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB321D31-6063-4E7A-B856-96D2F8CE29FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF76978C-C13A-4E18-95B9-066017D1D8D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF76978C-C13A-4E18-95B9-066017D1D8D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF76978C-C13A-4E18-95B9-066017D1D8D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF76978C-C13A-4E18-95B9-066017D1D8D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,6 +79,8 @@ Global
 		{33043BC4-BD7B-43B0-9810-03B97A8A0C23} = {077B4E29-11C6-42DE-AD26-9108B444FEF6}
 		{7608AF24-F399-4D2C-BD80-33E803994E86} = {B278191B-89BC-45E1-AE78-03B1E561EDC1}
 		{B89E2621-B1A4-450A-A9DC-821D7364DB85} = {077B4E29-11C6-42DE-AD26-9108B444FEF6}
+		{EB321D31-6063-4E7A-B856-96D2F8CE29FB} = {077B4E29-11C6-42DE-AD26-9108B444FEF6}
+		{EF76978C-C13A-4E18-95B9-066017D1D8D0} = {077B4E29-11C6-42DE-AD26-9108B444FEF6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7C68A5F5-22CD-40FE-980A-A545BC5544DF}

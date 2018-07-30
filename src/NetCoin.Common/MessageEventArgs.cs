@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NetCoin.Communication.Socket.EventArgs
+namespace NetCoin.Common
 {
-    public class MessageEventArgs : System.EventArgs
+    public class MessageEventArgs : EventArgs
     {
         public MessageEventArgs(string ASCIIMessage)
         {
