@@ -29,7 +29,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoin.Communication.Rabbi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "frontend", "frontend", "{AB1E912D-6E8B-4D67-B28A-F64C33D46742}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCMS", "frontend\SimpleCMS\SimpleCMS.csproj", "{11296D8D-8F38-4D68-965F-999F43EBEE02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleCMS", "frontend\SimpleCMS\SimpleCMS.csproj", "{11296D8D-8F38-4D68-965F-999F43EBEE02}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C1FB7270-C171-44D7-97D3-2CD720D8A99C}"
 EndProject
@@ -38,6 +38,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Misc", "Misc", "{D99CB525-8
 		LICENSE = LICENSE
 		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoin.BlockChain", "src\NetCoin.BlockChain\NetCoin.BlockChain.csproj", "{B23DEC55-537E-4D1D-8785-ACDD330F39F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -85,6 +87,10 @@ Global
 		{11296D8D-8F38-4D68-965F-999F43EBEE02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11296D8D-8F38-4D68-965F-999F43EBEE02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11296D8D-8F38-4D68-965F-999F43EBEE02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B23DEC55-537E-4D1D-8785-ACDD330F39F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B23DEC55-537E-4D1D-8785-ACDD330F39F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B23DEC55-537E-4D1D-8785-ACDD330F39F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B23DEC55-537E-4D1D-8785-ACDD330F39F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -99,6 +105,7 @@ Global
 		{EF76978C-C13A-4E18-95B9-066017D1D8D0} = {077B4E29-11C6-42DE-AD26-9108B444FEF6}
 		{11296D8D-8F38-4D68-965F-999F43EBEE02} = {AB1E912D-6E8B-4D67-B28A-F64C33D46742}
 		{D99CB525-8A44-4537-96E4-60CE07D233F3} = {C1FB7270-C171-44D7-97D3-2CD720D8A99C}
+		{B23DEC55-537E-4D1D-8785-ACDD330F39F8} = {E42F6000-B7D3-40D9-BAC2-C694C45AFF99}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7C68A5F5-22CD-40FE-980A-A545BC5544DF}
